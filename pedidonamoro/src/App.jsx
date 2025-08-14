@@ -3,7 +3,7 @@ import "./Saudade.css";
 import SaudadeCarousel from "./SaudadeCarousel";
 
 function getRandomPosition() {
-  // Limita o botão para não sair da tela (considerando 80% para garantir visibilidade)
+  // Limita o botão para não sair da tela (considerando 80% para garantir visibilidade)a
   const maxTop = 80; // porcentagem
   const maxLeft = 80;
   const top = Math.random() * maxTop;
